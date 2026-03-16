@@ -1,0 +1,32 @@
+.tooling/
+.idea/
+
+# 依赖目录
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Python 虚拟环境与缓存
+venv/
+.venv/
+env/
+.env/
+__pycache__/
+*.py[cod]
+
+# 构建输出 / 编译产物
+build/
+dist/
+out/
+.next/
+.turbo/
+
+# 日志和临时文件
+*.log
+tmp/
+.temp/
+*.tmp
+
+# 操作系统文件
+.DS_Store
